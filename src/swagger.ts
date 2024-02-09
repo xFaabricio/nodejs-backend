@@ -16,7 +16,7 @@ const options = {
       description: 'Exemplo de API com Node.js e TypeScript usando Swagger',
     },
   },
-  apis: ["./src/modules/**/*.ts"], // Caminho para os arquivos de definição de rotas
+  apis: ["**/*.ts"], // Caminho para os arquivos de definição de rotas
 };
 
 const specs = swaggerJSDoc(options);
